@@ -1,0 +1,27 @@
+:root {
+    --red: hsl(0, 78%, 62%);
+    --cyan: hsl(180, 62%, 55%);
+    --orange: hsl(34, 97%, 64%);
+    --blue: hsl(212, 86%, 64%);
+
+    --v-d-blue: hsl(234, 12%, 34%);
+    --g-blue: hsl(229, 6%, 66%);
+    --v-l-light: hsl(0, 0%, 98%);
+
+    --principal-font: 'Poppins', sans-serif;
+}
+
+/* GLOBALS */
+
+html  {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-family: var(--principal-font);
+}
